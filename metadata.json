@@ -1,0 +1,6 @@
+{
+  "name": "Centro de Control Financiero Personal",
+  "description": "JARVIS Personal OS: Centro de control personal, financiero y estratégico. Conecta finanzas, tareas, proyectos, objetivos, calendario, post-its inteligentes y asistente de decisiones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

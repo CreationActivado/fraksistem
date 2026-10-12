@@ -1,0 +1,2299 @@
+{
+  "user": {
+    "id": "usr_main",
+    "name": "Fran Albornoz",
+    "mainCurrency": "EUR",
+    "monthlyReserveTarget": 1000,
+    "location": "España / Logroño",
+    "lifeStage": "Estabilidad económica + crecimiento",
+    "stageProgression": "construccion",
+    "incomeStructure": "Múltiples fuentes variables: changas (ej: bar Dejavu de unos amigos), oficios (electricidad), Rotuprint, software para clientes y plataformas de producción",
+    "activeProjects": [
+      "Creko (Prioridad alta)",
+      "Rotuprint (Trámite en curso)",
+      "CTC (En desarrollo)",
+      "Burger Palusa (Creativo)",
+      "Suite Solutions (Oportunidad)",
+      "Software",
+      "Ciudad Gráfica (Histórico)",
+      "Goloso (En espera)"
+    ],
+    "priorities": [
+      "Generar ingresos diarios/semanales",
+      "Creko",
+      "Resolver Rotuprint",
+      "Cuidar salud (gym, comida)",
+      "No dispersarse con proyectos nuevos",
+      "Regular weed"
+    ],
+    "operatingRules": [
+      "Ser directo",
+      "Respuestas cortas",
+      "No humo",
+      "Pensar como socio/director",
+      "Cuidar el dinero"
+    ],
+    "communicationStyle": "directo_practico_firme",
+    "preferences": {
+      "confirmHighExpenses": true,
+      "highExpenseThreshold": 300,
+      "askOnAmbiguity": true,
+      "autoLearnRules": true,
+      "prioritizeReserveBeforeGrowth": true
+    }
+  },
+  "accounts": [
+    {
+      "id": "acc_cash",
+      "name": "Efectivo",
+      "type": "cash",
+      "balance": 50,
+      "currency": "EUR",
+      "active": true,
+      "updatedAt": "2026-09-28T04:00:00.000Z",
+      "notes": "Dinero disponible en mano / billetera (50 €)"
+    },
+    {
+      "id": "acc_arq",
+      "name": "ARQ",
+      "type": "bank_account",
+      "balance": 32,
+      "currency": "EUR",
+      "active": true,
+      "updatedAt": "2026-09-28T04:00:00.000Z",
+      "notes": "Dinero digital disponible en cuenta ARQ (32 €)"
+    },
+    {
+      "id": "acc_bingx",
+      "name": "BingX (Copy Trading)",
+      "type": "other",
+      "balance": 80,
+      "currency": "EUR",
+      "active": true,
+      "updatedAt": "2026-09-28T04:00:00.000Z",
+      "notes": "Inversión en Copy Trading en BingX (~80 €). NO dinero disponible para gastar."
+    },
+    {
+      "id": "acc_cocos",
+      "name": "Cocos Capital (Acciones)",
+      "type": "other",
+      "balance": 100,
+      "currency": "USD",
+      "active": true,
+      "updatedAt": "2026-09-28T04:00:00.000Z",
+      "notes": "100 USD destinados a compra de acciones el lunes: S&P 500, ETH, NVDA, MELI, Litio. NO dinero disponible para gastos cotidianos."
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_weed",
+      "name": "🌿 Weed / María",
+      "icon": "Leaf",
+      "color": "#10b981",
+      "isCustom": true,
+      "subcategories": [
+        {
+          "id": "sub_weed_flores",
+          "name": "Flores / Cogollos"
+        },
+        {
+          "id": "sub_weed_papelillos",
+          "name": "Papelillos y Filtros"
+        },
+        {
+          "id": "sub_weed_aceite",
+          "name": "Extractos / Aceite"
+        },
+        {
+          "id": "sub_weed_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_tabaco",
+      "name": "🚬 Tabaco",
+      "icon": "Flame",
+      "color": "#f97316",
+      "isCustom": true,
+      "subcategories": [
+        {
+          "id": "sub_tabaco_armar",
+          "name": "Paquete / Armar"
+        },
+        {
+          "id": "sub_tabaco_filtros",
+          "name": "Filtros y Papelillos"
+        },
+        {
+          "id": "sub_tabaco_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_casa",
+      "name": "Casa",
+      "icon": "Home",
+      "color": "#3b82f6",
+      "subcategories": [
+        {
+          "id": "sub_alquiler",
+          "name": "Alquiler"
+        },
+        {
+          "id": "sub_luz",
+          "name": "Luz"
+        },
+        {
+          "id": "sub_agua",
+          "name": "Agua"
+        },
+        {
+          "id": "sub_internet",
+          "name": "Internet"
+        },
+        {
+          "id": "sub_casa_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_alim",
+      "name": "Alimentación",
+      "icon": "Utensils",
+      "color": "#10b981",
+      "subcategories": [
+        {
+          "id": "sub_super",
+          "name": "Supermercado"
+        },
+        {
+          "id": "sub_comida",
+          "name": "Comida"
+        },
+        {
+          "id": "sub_restaurantes",
+          "name": "Restaurantes"
+        },
+        {
+          "id": "sub_alim_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_personal",
+      "name": "Personal",
+      "icon": "User",
+      "color": "#8b5cf6",
+      "subcategories": [
+        {
+          "id": "sub_celular",
+          "name": "Celular"
+        },
+        {
+          "id": "sub_higiene",
+          "name": "Higiene"
+        },
+        {
+          "id": "sub_ropa",
+          "name": "Ropa"
+        },
+        {
+          "id": "sub_ocio",
+          "name": "Ocio"
+        },
+        {
+          "id": "sub_pers_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_transporte",
+      "name": "Transporte",
+      "icon": "Car",
+      "color": "#f59e0b",
+      "subcategories": [
+        {
+          "id": "sub_combustible",
+          "name": "Combustible"
+        },
+        {
+          "id": "sub_transporte_pub",
+          "name": "Transporte público"
+        },
+        {
+          "id": "sub_mantenimiento",
+          "name": "Mantenimiento auto"
+        },
+        {
+          "id": "sub_viajes",
+          "name": "Viajes"
+        },
+        {
+          "id": "sub_trans_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_gen_ingresos",
+      "name": "Generación de ingresos",
+      "icon": "Briefcase",
+      "color": "#ec4899",
+      "subcategories": [
+        {
+          "id": "sub_dejavu",
+          "name": "Changa / Bar Dejavu"
+        },
+        {
+          "id": "sub_electricidad",
+          "name": "Electricidad / Oficios"
+        },
+        {
+          "id": "sub_herramientas",
+          "name": "Herramientas de trabajo"
+        },
+        {
+          "id": "sub_trabajo_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_rotuprint",
+      "name": "Rotuprint",
+      "icon": "Printer",
+      "color": "#6366f1",
+      "subcategories": [
+        {
+          "id": "sub_materiales",
+          "name": "Materiales"
+        },
+        {
+          "id": "sub_maquinaria",
+          "name": "Maquinaria"
+        },
+        {
+          "id": "sub_rotu_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_software",
+      "name": "Software",
+      "icon": "Code",
+      "color": "#06b6d4",
+      "subcategories": [
+        {
+          "id": "sub_licencias",
+          "name": "Licencias"
+        },
+        {
+          "id": "sub_hosting",
+          "name": "Servidores & Cloud"
+        },
+        {
+          "id": "sub_soft_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_inversiones",
+      "name": "Inversiones",
+      "icon": "TrendingUp",
+      "color": "#14b8a6",
+      "subcategories": [
+        {
+          "id": "sub_crecimiento",
+          "name": "Crecimiento"
+        },
+        {
+          "id": "sub_educacion",
+          "name": "Educación & Cursos"
+        },
+        {
+          "id": "sub_inv_otros",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "cat_otros",
+      "name": "Otros",
+      "icon": "Layers",
+      "color": "#6b7280",
+      "subcategories": [
+        {
+          "id": "sub_imprevistos",
+          "name": "Imprevistos"
+        },
+        {
+          "id": "sub_varios",
+          "name": "Varios"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_creko",
+      "name": "Creko",
+      "description": "Proyecto principal de merch junto con Thiago. Pilares: 1. Captación y venta, 2. Sistema de producción, 3. Sistema de contenido.",
+      "status": "active",
+      "goal": "Hacerlo crecer y convertirlo en una empresa organizada y escalable",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 25,
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "proj_ctc",
+      "name": "CTC",
+      "description": "Proyecto con Tomás de Luna. Cerebro digital para agencias y creadores para generar contenido coherente (Reels, calendario, métricas).",
+      "status": "active",
+      "goal": "Sistema de organización de contenido y cerebro de marca",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 40,
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "proj_rotuprint",
+      "name": "Rotuprint",
+      "description": "PRIORIDAD ADMINISTRATIVA Y LABORAL. Precontrato existente. Trámite pendiente con SEPE y Extranjería. Trabajo con abogada (coste ~300 €).",
+      "status": "active",
+      "goal": "Finalización de trámites SEPE y presentación formal ante Extranjería",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 50,
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "proj_soft_clientes",
+      "name": "Software de clientes",
+      "description": "Desarrollo de software y soluciones para clientes externos",
+      "status": "active",
+      "goal": "Entregas a clientes",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 50,
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "proj_soft_produccion",
+      "name": "Software de producción",
+      "description": "Sistemas internos y plataformas en producción",
+      "status": "active",
+      "goal": "Estabilidad y escalabilidad",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 70,
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "proj_burger_palusa",
+      "name": "Burger Palusa",
+      "description": "Proyecto creativo y colaboración familiar (padre socio). Indumentaria, remeras, camperas, tote bags y videos publicitarios para pantallas de calle en Argentina.",
+      "status": "active",
+      "goal": "Diseños de camisetas, ediciones especiales y piezas creativas",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 80,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    },
+    {
+      "id": "proj_soft_desarrollo",
+      "name": "Sowfts (Software en desarrollo)",
+      "description": "Desarrollo de páginas web, software, sistemas y experimentos digitales con foco en monetización y clientes.",
+      "status": "active",
+      "goal": "Crear herramientas útiles y fuentes de ingresos recurrentes",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 50,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    },
+    {
+      "id": "proj_ciudad_grafica",
+      "name": "Ciudad Gráfica",
+      "description": "Proyecto histórico / profesional / familiar. Raíces del camino emprendedor de Fran: indumentaria, confección, serigrafía, DTF, marketing. Departamento en manos de su hermana.",
+      "status": "completed",
+      "goal": "Conservar la historia profesional y aprendizajes de sistemas",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 100,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    },
+    {
+      "id": "proj_suite_solutions",
+      "name": "Suite Solutions",
+      "description": "Negocio de Juanchi Frías (hotelería y apartamentos). Fran participa 2h diarias en captación de lunes a viernes: 250 €/mes + comisiones por clientes cerrados.",
+      "status": "active",
+      "goal": "Generación de ingresos: 250 €/mes + comisiones de captación",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 30,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    },
+    {
+      "id": "proj_espana",
+      "name": "España OS",
+      "description": "Regularización, documentos, legalizaciones, apostillas, cita de extranjería y gestión integral de residencia.",
+      "status": "active",
+      "goal": "Estabilidad legal completa en España",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 60,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    },
+    {
+      "id": "proj_goloso",
+      "name": "Goloso",
+      "description": "Proyecto de comida/hot dogs en Logroño (Fran, Tomás, Juanchi, Thiago). Imagen desarrollada. Estado WAITING/FUTURO para evitar dispersión.",
+      "status": "paused",
+      "goal": "En espera de capital y tiempo propicio (sacado del foco diario)",
+      "accumulatedInvestment": 0,
+      "accumulatedIncome": 0,
+      "accumulatedExpenses": 0,
+      "progress": 15,
+      "createdAt": "2026-09-24T06:31:17.294Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_initial_cash_180",
+      "type": "income",
+      "amount": 180,
+      "currency": "EUR",
+      "categoryId": "cat_gen_ingresos",
+      "paymentMethodId": "acc_cash",
+      "description": "Saldo inicial en efectivo",
+      "date": "2026-09-04",
+      "status": "confirmed",
+      "source": "manual",
+      "notes": "Saldo inicial en efectivo (4 de Septiembre)",
+      "userId": "usr_main",
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "tx_gasto_comida_35",
+      "type": "expense",
+      "amount": 35,
+      "currency": "EUR",
+      "categoryId": "cat_alim",
+      "subcategoryId": "sub_comida",
+      "paymentMethodId": "acc_cash",
+      "description": "Comida y etc.",
+      "date": "2026-09-04",
+      "status": "confirmed",
+      "source": "manual",
+      "notes": "Gasto en comida y etc (ayer) registrado por Fran",
+      "userId": "usr_main",
+      "createdAt": "2026-09-04T20:30:00.000Z",
+      "updatedAt": "2026-09-04T20:30:00.000Z"
+    }
+  ],
+  "pendingIncomes": [
+    {
+      "id": "pend_ikualo",
+      "concept": "Ikualo — Transferencia en camino",
+      "amount": 40,
+      "expectedDate": "2026-09-29",
+      "origin": "Ikualo",
+      "status": "pending",
+      "notes": "Aprox 40 € pendientes de recibir entre lunes y martes. NO disponible hasta que llegue efectivamente.",
+      "createdAt": "2026-09-28T04:00:00.000Z"
+    },
+    {
+      "id": "pend_dejavu",
+      "concept": "DejaVu — Turnos de trabajo pendientes",
+      "amount": 0,
+      "expectedDate": "2026-09-30",
+      "origin": "DejaVu",
+      "status": "pending",
+      "notes": "Pago pendiente de DejaVu. No introducir monto inventado hasta que Fran confirme cuánto cobró.",
+      "createdAt": "2026-09-28T04:00:00.000Z"
+    }
+  ],
+  "futureExpenses": [],
+  "reserve": {
+    "targetAmount": 1000,
+    "currentAmount": 0,
+    "percentage": 0,
+    "targetDate": "2026-12-03",
+    "accountIds": [],
+    "notes": "Reserva de seguridad personal"
+  },
+  "goals": [
+    {
+      "id": "goal_reserva_1000",
+      "name": "Llegar a 1.000 € de reserva",
+      "targetAmount": 1000,
+      "currentAmount": 0,
+      "status": "in_progress",
+      "priority": "high",
+      "createdAt": "2026-09-04T11:33:41.394Z"
+    }
+  ],
+  "memory": [
+    {
+      "id": "mem_context_espana",
+      "type": "context",
+      "priority": "global",
+      "classification": "confirmed_fact",
+      "key": "ubicacion_espana",
+      "value": "El usuario reside en España y está construyendo su etapa de estabilidad y permanencia.",
+      "description": "Contexto real: intentando radicarse y estabilizarse en España (no es un simple viaje)",
+      "usageCount": 10,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_work_variable_incomes",
+      "type": "work_style",
+      "priority": "global",
+      "classification": "confirmed_fact",
+      "key": "ingresos_variables",
+      "value": "Ingresos variables por múltiples vías: changas, oficios (electricidad), Rotuprint, software para clientes y plataformas propias.",
+      "description": "Estructura de ingresos no lineal: la estabilidad se evalúa semana a semana y mes a mes.",
+      "usageCount": 8,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_ctc_rule_fundamental",
+      "type": "financial_rule",
+      "priority": "global",
+      "classification": "confirmed_fact",
+      "key": "regla_ctc_no_es_ingreso",
+      "value": "CTC es un PROYECTO. No debe aparecer como ingreso simplemente porque exista. Solo cuenta ante transacciones reales.",
+      "description": "Separación estricta entre proyectos y fuentes de ingreso automático.",
+      "usageCount": 12,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_rule_stability_first",
+      "type": "financial_rule",
+      "priority": "global",
+      "classification": "confirmed_fact",
+      "key": "primero_estabilidad_despues_crecimiento",
+      "value": "Primero estar estable. Después generar. Después construir. Después crecer. Nunca sacrificar la reserva básica por proyectos.",
+      "description": "Regla maestra de toma de decisiones financieras.",
+      "usageCount": 9,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_pref_communication",
+      "type": "preference",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "comunicacion_directa_firme",
+      "value": "Directo, claro, práctico, informal, en español y firme. No complaciente: avisar si no conviene gastar.",
+      "description": "Estilo de respuesta del asistente.",
+      "usageCount": 7,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_etapa_construccion",
+      "type": "context",
+      "priority": "temporary_context",
+      "classification": "temporary_context",
+      "isTemporary": true,
+      "key": "etapa_construccion_espana",
+      "value": "Convirtiendo una situación todavía inestable en una situación estable.",
+      "description": "Momento vital actual del usuario.",
+      "usageCount": 5,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_naranja",
+      "type": "payment_method_alias",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "la naranja",
+      "value": "Tarjeta Naranja",
+      "targetData": {
+        "paymentMethodId": "acc_naranja"
+      },
+      "description": "Mapea la expresión coloquial \"la Naranja\" a Tarjeta Naranja",
+      "usageCount": 3,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_galicia",
+      "type": "payment_method_alias",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "galicia",
+      "value": "Tarjeta Galicia",
+      "targetData": {
+        "paymentMethodId": "acc_galicia"
+      },
+      "description": "Mapea la expresión coloquial \"Galicia\" a Tarjeta Galicia",
+      "usageCount": 2,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_efectivo",
+      "type": "payment_method_alias",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "efectivo",
+      "value": "Efectivo",
+      "targetData": {
+        "paymentMethodId": "acc_cash"
+      },
+      "description": "Mapea \"efectivo\" o \"en mano\" a la cuenta Efectivo",
+      "usageCount": 5,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_nafta",
+      "type": "category_rule",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "nafta",
+      "value": "Transporte → Combustible",
+      "targetData": {
+        "categoryId": "cat_transporte",
+        "subcategoryId": "sub_combustible"
+      },
+      "description": "Mapea \"nafta\" o \"combustible\" o \"gasolina\" a Transporte / Combustible",
+      "usageCount": 2,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_super",
+      "type": "category_rule",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "super",
+      "value": "Alimentación → Supermercado",
+      "targetData": {
+        "categoryId": "cat_alim",
+        "subcategoryId": "sub_super"
+      },
+      "description": "Mapea \"super\" o \"supermercado\" a Alimentación / Supermercado",
+      "usageCount": 2,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_rotuprint_proj",
+      "type": "project_rule",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "rotuprint",
+      "value": "Proyecto Rotuprint",
+      "targetData": {
+        "projectId": "proj_rotuprint",
+        "categoryId": "cat_rotuprint"
+      },
+      "description": "Mapea menciones de \"Rotuprint\" o \"materiales para Rotuprint\" al proyecto Rotuprint",
+      "usageCount": 2,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T11:33:41.394Z"
+    },
+    {
+      "id": "mem_ctc_proj",
+      "type": "project_rule",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "ctc",
+      "value": "Proyecto CTC",
+      "targetData": {
+        "projectId": "proj_ctc"
+      },
+      "description": "Proyecto CTC (recuerda que NO es fuente automática de ingresos)",
+      "usageCount": 4,
+      "createdAt": "2026-09-04T11:33:41.394Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "mem_dejavu",
+      "type": "category_rule",
+      "priority": "user_preference",
+      "classification": "confirmed_fact",
+      "key": "dejavu",
+      "value": "Generación de ingresos → Changa / Bar Dejavu",
+      "targetData": {
+        "categoryId": "cat_gen_ingresos",
+        "subcategoryId": "sub_dejavu"
+      },
+      "description": "Bar de amigos donde Fran hace changas e ingresos de trabajo",
+      "usageCount": 1,
+      "createdAt": "2026-09-04T13:00:00.000Z",
+      "updatedAt": "2026-09-04T13:00:00.000Z"
+    },
+    {
+      "id": "mem_electricidad",
+      "type": "category_rule",
+      "priority": "user_preference",
+      "classification": "confirmed_fact",
+      "key": "electricidad",
+      "value": "Generación de ingresos → Electricidad / Oficios",
+      "targetData": {
+        "categoryId": "cat_gen_ingresos",
+        "subcategoryId": "sub_electricidad"
+      },
+      "description": "Trabajos y oficios de electricista",
+      "usageCount": 1,
+      "createdAt": "2026-09-04T13:00:00.000Z",
+      "updatedAt": "2026-09-04T13:00:00.000Z"
+    },
+    {
+      "type": "preference",
+      "priority": "user_preference",
+      "classification": "user_preference",
+      "key": "a las 8am entreno en el gym",
+      "value": "a las 8am entreno en el gym",
+      "description": "Recuerdo aprendido el 27/9/2026: \"a las 8am entreno en el gym\"",
+      "id": "mem_1790499885188_8j2l",
+      "usageCount": 1,
+      "createdAt": "2026-09-27T09:04:45.188Z",
+      "updatedAt": "2026-09-27T09:04:45.188Z"
+    },
+    {
+      "type": "preference",
+      "priority": "operating_rule",
+      "classification": "operating_rule",
+      "key": "cartera_inversiones_cocos_copytrade",
+      "value": "Inversiones activas: $80 USD en Copy Trading (Stop-Loss estricto al 20%, rescate si baja a $64 USD) y $500 USD en Cocos Capital asignados así: 50% SPY ($250), 20% MELI ($100), 15% NVDA ($75), 15% YPF ($75).",
+      "description": "Estrategia de asignación de activos en Cocos Capital y gestión de riesgo en Copy Trade",
+      "id": "mem_1790500974466_9viu",
+      "usageCount": 1,
+      "createdAt": "2026-09-27T09:22:54.466Z",
+      "updatedAt": "2026-09-27T09:22:54.466Z"
+    }
+  ],
+  "undoStack": [],
+  "postits": [
+    {
+      "title": "🎯 Cartera Cocos & Copy Trade",
+      "description": "Cocos ($500 USD): 50% SPY ($250), 20% MELI ($100), 15% NVDA ($75), 15% YPF ($75) | Copy Trade: $80 USD (Stop-Loss $64).",
+      "colorPriority": "green",
+      "moneyAmount": 580,
+      "tags": [
+        "inversiones",
+        "cocos",
+        "trading",
+        "cedears"
+      ],
+      "id": "postit_1790500974467_tnzz",
+      "status": "active",
+      "createdAt": "2026-09-27T09:22:54.467Z",
+      "updatedAt": "2026-09-27T09:22:54.467Z"
+    },
+    {
+      "id": "postit_burger_palusa_300",
+      "title": "Burger Palusa: Pago Pendiente 300 $ (Para Invertir)",
+      "description": "Tengo un pago pendiente de 300 dólares por los diseños gráficos. Esos 300 dólares después seguramente los voy a invertir (Regla 60% Inversión), pero todavía no ingresaron.",
+      "colorPriority": "orange",
+      "projectId": "proj_burger_palusa",
+      "moneyAmount": 275,
+      "status": "active",
+      "isPinned": true,
+      "checklist": [
+        {
+          "id": "bp_1",
+          "text": "Entrega de diseños acordados (300 USD)",
+          "done": false
+        },
+        {
+          "id": "bp_2",
+          "text": "Cobro de 300 $ pendientes",
+          "done": false
+        },
+        {
+          "id": "bp_3",
+          "text": "Asignar 60% (180 $) a inversión y 40% (120 $) a bolsillo",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-25T06:00:00.000Z",
+      "updatedAt": "2026-09-25T06:00:00.000Z"
+    },
+    {
+      "id": "postit_dejavu_turnos",
+      "title": "DejaVu: Pago Pendiente Turnos Nocturnos",
+      "description": "Pago pendiente que seguramente me lo van a pagar la semana que viene o a fin de semana. Estuve trabajando todos los días más o menos a la noche. Va a sumar para el alquiler de eso o en otra cosa que yo quiera (monto editable).",
+      "colorPriority": "purple",
+      "moneyAmount": 220,
+      "contactName": "DejaVu",
+      "status": "active",
+      "isPinned": true,
+      "checklist": [
+        {
+          "id": "dj_1",
+          "text": "Cierre de horas de los turnos de la semana",
+          "done": false
+        },
+        {
+          "id": "dj_2",
+          "text": "Cobro de liquidación fin de semana / semana entrante",
+          "done": false
+        },
+        {
+          "id": "dj_3",
+          "text": "Separar parte para el alquiler y gastos esenciales",
+          "done": false
+        }
+      ],
+      "createdAt": "2026-09-25T06:00:00.000Z",
+      "updatedAt": "2026-09-25T06:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_burger_palusa_diseno",
+      "title": "Terminar paquete de diseños para Burger Palusa (300 $)",
+      "projectId": "proj_burger_palusa",
+      "priority": "urgent",
+      "status": "in_progress",
+      "dueDate": "2026-09-24",
+      "durationMinutes": 180,
+      "effort": "medium",
+      "financialImpact": {
+        "type": "income_driver",
+        "expectedAmount": 275
+      },
+      "notes": "Paquete de piezas creativas acordado por 300 USD (~275 €). Entregar mockups y archivos finales.",
+      "postItId": "postit_burger_palusa_diseno",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.124Z"
+    },
+    {
+      "id": "task_dejavu_turno",
+      "title": "Turno de trabajo en DejaVu de 20:00 a 00:00 (12 de la noche)",
+      "priority": "high",
+      "status": "todo",
+      "dueDate": "2026-09-24",
+      "durationMinutes": 240,
+      "effort": "medium",
+      "financialImpact": {
+        "type": "income_driver",
+        "expectedAmount": 60
+      },
+      "notes": "Turno nocturno seguro en DejaVu (4 horas en barra/sala)",
+      "postItId": "postit_changas_dejavu",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.124Z"
+    },
+    {
+      "id": "task_cobrar_josu",
+      "title": "Cobrar 180 € de trabajo de electricidad a Josu",
+      "priority": "high",
+      "status": "todo",
+      "dueDate": "2026-09-24",
+      "durationMinutes": 15,
+      "effort": "low",
+      "financialImpact": {
+        "type": "income_driver",
+        "expectedAmount": 180
+      },
+      "notes": "Impacto directo en caja disponible",
+      "postItId": "postit_changas_dejavu",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.124Z"
+    },
+    {
+      "id": "task_presupuesto_velvet",
+      "title": "Seguimiento de presupuesto de rotulación Peluquería Velvet (375 €)",
+      "projectId": "proj_creko",
+      "priority": "medium",
+      "status": "todo",
+      "dueDate": "2026-09-25",
+      "durationMinutes": 30,
+      "effort": "low",
+      "financialImpact": {
+        "type": "income_driver",
+        "expectedAmount": 375
+      },
+      "notes": "Propuesta de vinilos y 25 remeras oversize",
+      "postItId": "postit_creko_rotulacion",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.124Z"
+    },
+    {
+      "id": "task_abogada_rotuprint",
+      "title": "Seguimiento trámite regularización laboral con abogada (SEPE / Extranjería)",
+      "projectId": "proj_rotuprint",
+      "priority": "medium",
+      "status": "in_progress",
+      "dueDate": "2026-09-26",
+      "durationMinutes": 30,
+      "effort": "low",
+      "notes": "Expediente de contratación y regularización en Logroño",
+      "postItId": "postit_rotuprint_empleo",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.124Z"
+    },
+    {
+      "id": "task_cierre_caja",
+      "title": "Cierre diario de caja y balance financiero de la jornada",
+      "priority": "medium",
+      "status": "todo",
+      "dueDate": "2026-09-24",
+      "durationMinutes": 15,
+      "effort": "low",
+      "notes": "Verificar efectivo real en mano (145 €) y registrar movimientos",
+      "postItId": "postit_sowfts_plataforma",
+      "createdAt": "2026-09-24T13:18:18.124Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    }
+  ],
+  "habits": [
+    {
+      "id": "hab_entrenar",
+      "title": "¿Entrenaste?",
+      "icon": "Dumbbell",
+      "category": "fitness",
+      "streak": 4,
+      "completedToday": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_leer",
+      "title": "¿Leíste?",
+      "icon": "BookOpen",
+      "category": "mind",
+      "streak": 2,
+      "completedToday": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_meditar",
+      "title": "¿Meditaste?",
+      "icon": "Sparkles",
+      "category": "mind",
+      "streak": 1,
+      "completedToday": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_correr",
+      "title": "¿Corriste?",
+      "icon": "Footprints",
+      "category": "fitness",
+      "streak": 0,
+      "completedToday": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_creko",
+      "title": "¿Trabajaste en Creko?",
+      "icon": "Rocket",
+      "category": "creko",
+      "streak": 5,
+      "completedToday": true,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_captacion",
+      "title": "¿Hiciste captación?",
+      "icon": "Target",
+      "category": "creko",
+      "streak": 3,
+      "completedToday": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "hab_dormir",
+      "title": "¿Dormiste bien?",
+      "icon": "Moon",
+      "category": "mind",
+      "streak": 3,
+      "completedToday": true,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "chk_init",
+      "date": "2026-09-24",
+      "mood": 8,
+      "energy": 8,
+      "stress": 4,
+      "sleep": 7,
+      "motivation": 9,
+      "mindNotes": "Enfocado en cerrar cobros y avanzar con propuestas de Creko.",
+      "worries": "Seguimiento de documentación en España y precontrato Rotuprint.",
+      "habitsCompleted": [
+        "hab_creko",
+        "hab_dormir"
+      ],
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "crekoLeads": [
+    {
+      "id": "lead_la_esquina",
+      "name": "Bar La Esquina",
+      "company": "La Esquina Gastro",
+      "contactPerson": "Manuel",
+      "phone": "+34 611 223 344",
+      "instagram": "@barlaesquina",
+      "source": "google_maps",
+      "status": "contacted",
+      "potentialValue": 300,
+      "probability": 60,
+      "lastContactDate": "2026-09-22",
+      "nextContactDate": "2026-09-25",
+      "notes": "Interesados en rotulación exterior y carta digital.",
+      "createdAt": "2026-09-24T06:31:17.295Z",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "lead_gimnasio_atlas",
+      "name": "Gimnasio Atlas",
+      "company": "Atlas Fitness SL",
+      "contactPerson": "Carla",
+      "phone": "+34 622 334 455",
+      "instagram": "@atlas_fit",
+      "source": "in_person",
+      "status": "interested",
+      "potentialValue": 450,
+      "probability": 75,
+      "lastContactDate": "2026-09-23",
+      "nextContactDate": "2026-09-24",
+      "notes": "Quieren presupuesto para indumentaria de entrenadores y vinilos de sala.",
+      "createdAt": "2026-09-24T06:31:17.295Z",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "lead_velvet",
+      "name": "Peluquería Velvet",
+      "company": "Velvet Style",
+      "contactPerson": "Sonia",
+      "phone": "+34 633 445 566",
+      "instagram": "@velvet_hair",
+      "source": "instagram",
+      "status": "quote",
+      "potentialValue": 220,
+      "probability": 80,
+      "lastContactDate": "2026-09-21",
+      "notes": "Presupuesto PRE-2026-001 enviado. Hace 3 días sin respuesta, ¡necesita seguimiento hoy!",
+      "quoteId": "quote_velvet_001",
+      "createdAt": "2026-09-24T06:31:17.295Z",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "crekoQuotes": [
+    {
+      "id": "quote_velvet_001",
+      "code": "PRE-2026-001",
+      "clientName": "Peluquería Velvet",
+      "concept": "Diseño de identidad, vinilo para cristalera y tarjetas de visita",
+      "amount": 220,
+      "status": "waiting",
+      "sentDate": "2026-09-21",
+      "followUpDate": "2026-09-24",
+      "notes": "Presupuesto entregado por WhatsApp. Falta confirmación.",
+      "needsFollowUp": true,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "quote_la_esquina_002",
+      "code": "PRE-2026-002",
+      "clientName": "Bar La Esquina",
+      "concept": "Rotulación exterior y diseño de menú con QR",
+      "amount": 300,
+      "status": "draft",
+      "notes": "Pendiente de definir medidas exactas del escaparate.",
+      "needsFollowUp": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "quote_rotuprint_003",
+      "code": "PRE-2026-003",
+      "clientName": "Producción Gráfica Industrial",
+      "concept": "Lote de corte vinilo y packaging personalizado",
+      "amount": 480,
+      "status": "accepted",
+      "sentDate": "2026-09-17",
+      "notes": "Aceptado. Programar producción.",
+      "needsFollowUp": false,
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "crekoOpportunities": [
+    {
+      "id": "opp_cerveceria_puerto",
+      "name": "Cervecería El Puerto",
+      "category": "Bar / Gastronomía",
+      "area": "Zona Centro",
+      "potentialAmount": 350,
+      "status": "discovered",
+      "suggestedAction": "Enviar propuesta de cartelería y uniformes estampados",
+      "phoneOrIG": "@cerveceriaelpuerto",
+      "notes": "Local con mucho tráfico, cartelería desgastada.",
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "opp_crossfit_norte",
+      "name": "CrossFit Box Norte",
+      "category": "Gimnasio",
+      "area": "Polígono Norte",
+      "potentialAmount": 500,
+      "status": "discovered",
+      "suggestedAction": "Proponer merch para socios y camisetas del personal",
+      "phoneOrIG": "@crossfitboxnorte",
+      "notes": "Comunidad activa, abrieron hace 4 meses.",
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "spainDocs": [
+    {
+      "id": "doc_rotuprint_precontrato",
+      "title": "Precontrato laboral Rotuprint",
+      "category": "rotuprint",
+      "status": "in_progress",
+      "dueDate": "2026-10-09",
+      "notes": "En revisión por la asesoría laboral de Rotuprint para regularización.",
+      "officialSource": "Gestoría Rotuprint",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "doc_penales_apostilla",
+      "title": "Certificado de antecedentes penales legalizado y apostillado",
+      "category": "legalizacion",
+      "status": "ready",
+      "requiresApostille": true,
+      "notes": "Documento original con apostilla de La Haya en regla.",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "doc_padron",
+      "title": "Certificado de empadronamiento actualizado",
+      "category": "regularizacion",
+      "status": "ready",
+      "dueDate": "2026-11-23",
+      "notes": "Vigencia de 3 meses. Solicitar renovación antes de la cita si expira.",
+      "officialSource": "Ayuntamiento",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "doc_cita_extranjeria",
+      "title": "Cita previa en oficina de extranjería",
+      "category": "regularizacion",
+      "status": "pending",
+      "notes": "Revisar la sede electrónica semanalmente para conseguir turno.",
+      "officialSource": "Sede Electrónica Administraciones Públicas",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "missions": [
+    {
+      "id": "mis_reserva_1000",
+      "title": "Construir 1.000 € de Reserva de Seguridad",
+      "level": "finanzas",
+      "currentAmount": 145,
+      "targetAmount": 1000,
+      "unit": "€",
+      "status": "active",
+      "deadline": "2026-10-31",
+      "description": "Prioridad absoluta. Ningún gasto no esencial hasta consolidar el colchón de 1.000 €.",
+      "nextMissionPreview": "Misión: Escalar reserva a 2.500 € (3 meses de costes fijos)"
+    },
+    {
+      "id": "mis_creko_5_clientes",
+      "title": "Cerrar los primeros 5 clientes recurrentes de Creko",
+      "level": "creko",
+      "currentAmount": 2,
+      "targetAmount": 5,
+      "unit": "clientes",
+      "status": "active",
+      "description": "Generar tracción propia y recurrencia en producción y branding.",
+      "nextMissionPreview": "Misión: Facturación mensual estable de 1.500 € en Creko"
+    },
+    {
+      "id": "mis_regularizacion_espana",
+      "title": "Completar expediente de regularización en España",
+      "level": "profesional",
+      "currentAmount": 3,
+      "targetAmount": 5,
+      "unit": "hitos",
+      "status": "active",
+      "description": "Rotuprint + antecedentes + empadronamiento + presentación formal.",
+      "nextMissionPreview": "Misión: Alta en régimen laboral y cuenta bancaria definitiva"
+    }
+  ],
+  "settings": {
+    "intensity": "normal",
+    "confirmHighExpenses": true,
+    "highExpenseThreshold": 300,
+    "enableDailyCheckinReminder": true,
+    "activeModules": [
+      "welcome_hero",
+      "money",
+      "quick_actions",
+      "mi_cabeza",
+      "changas",
+      "creko",
+      "spain_process",
+      "tasks",
+      "postits",
+      "habits",
+      "missions",
+      "calendar",
+      "alerts",
+      "jarvis"
+    ],
+    "userCity": "Logroño",
+    "userTemperature": "22°C",
+    "userWeatherCondition": "Soleado",
+    "faceRecognitionEnabled": true
+  },
+  "changas": [
+    {
+      "title": "Rotulación",
+      "client": "Bar la esquina",
+      "clientOrPerson": "Bar la esquina",
+      "amount": 350,
+      "notes": "Registrada vía chat de JARVIS el 27/9/2026",
+      "status": "pending",
+      "date": "2026-09-27",
+      "id": "changa_1790499880710",
+      "createdAt": "2026-09-27T09:04:40.711Z"
+    },
+    {
+      "id": "changa_dejavu_hoy",
+      "title": "Turno en DejaVu (20:00 a 00:00)",
+      "categoryName": "DejaVu",
+      "category": "DejaVu",
+      "client": "Bar / Discoteca DejaVu",
+      "clientOrPerson": "Bar / Discoteca DejaVu",
+      "amount": 60,
+      "paid": false,
+      "status": "pending",
+      "hours": 4,
+      "date": "2026-09-24",
+      "paymentMethodId": "acc_cash",
+      "notes": "Turno de noche hoy de 20:00 a 00:00 (12 de la noche). 4 horas de servicio seguras.",
+      "createdAt": "2026-09-24T13:19:35.597Z"
+    },
+    {
+      "id": "changa_dejavu_previo_01",
+      "title": "Turno fin de semana en barra DejaVu",
+      "categoryName": "DejaVu",
+      "category": "DejaVu",
+      "client": "Bar / Discoteca DejaVu",
+      "clientOrPerson": "Bar / Discoteca DejaVu",
+      "amount": 80,
+      "paid": true,
+      "status": "paid",
+      "hours": 5,
+      "date": "2026-09-21",
+      "paymentMethodId": "acc_cash",
+      "notes": "Turno de fin de semana en barra y apoyo.",
+      "createdAt": "2026-09-21T13:19:35.597Z"
+    },
+    {
+      "id": "changa_dejavu_previo_02",
+      "title": "Turno nocturno entre semana DejaVu",
+      "categoryName": "DejaVu",
+      "category": "DejaVu",
+      "client": "Bar / Discoteca DejaVu",
+      "clientOrPerson": "Bar / Discoteca DejaVu",
+      "amount": 60,
+      "paid": true,
+      "status": "paid",
+      "hours": 4,
+      "date": "2026-09-17",
+      "paymentMethodId": "acc_cash",
+      "notes": "Turno nocturno entre semana.",
+      "createdAt": "2026-09-17T13:19:35.597Z"
+    },
+    {
+      "id": "changa_josu_02",
+      "title": "Instalación de luminarias y cuadro secundario",
+      "categoryName": "Josu / Electricidad",
+      "category": "Electricidad",
+      "client": "Josu",
+      "clientOrPerson": "Josu",
+      "amount": 180,
+      "paid": false,
+      "status": "pending",
+      "hours": 6,
+      "date": "2026-09-24",
+      "notes": "Instalación de luminarias y cuadro secundario. Pendiente de cobro.",
+      "createdAt": "2026-09-24T13:19:35.597Z"
+    }
+  ],
+  "crekoProductionOrders": [
+    {
+      "id": "prod_velvet_remeras",
+      "clientName": "Peluquería Velvet",
+      "product": "25 Remeras Oversize Premium con estampa espalda DTF",
+      "quantity": 25,
+      "step": "archivos",
+      "dueDate": "2026-09-29",
+      "totalAmount": 375,
+      "notes": "Archivos vectoriales preparados en Corel/Photoshop con semitonos.",
+      "createdAt": "2026-09-24T06:31:17.295Z",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "prod_atlas_totes",
+      "clientName": "Gimnasio Atlas",
+      "product": "50 Tote bags de lienzo serigrafiadas a 1 color",
+      "quantity": 50,
+      "step": "diseno",
+      "dueDate": "2026-10-02",
+      "totalAmount": 250,
+      "notes": "Definiendo mockup final con Carla.",
+      "createdAt": "2026-09-24T06:31:17.295Z",
+      "updatedAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "crekoContentItems": [
+    {
+      "id": "cont_story_behind_scenes",
+      "title": "3 Historias mostrando el proceso de DTF y calidad de tela",
+      "type": "historia",
+      "status": "pendiente",
+      "scheduledDate": "2026-09-24",
+      "caption": "Cómo estampamos sin perder el tacto suave de la prenda.",
+      "notes": "Mostrar detalle del despegue y textura final.",
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    },
+    {
+      "id": "cont_reel_sistema_merch",
+      "title": "Reel: Por qué el merch barato le cuesta clientes a tu marca",
+      "type": "reel",
+      "status": "idea",
+      "scheduledDate": "2026-09-26",
+      "caption": "Diferencia entre merchandising promocional genérico y prendas que la gente realmente quiere usar en la calle.",
+      "notes": "Grabación en taller con Thiago.",
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "customModules": [
+    {
+      "id": "mod_clientes_contactados",
+      "title": "Control de Prospección Diaria",
+      "icon": "Target",
+      "description": "Registro rápido de comercios y marcas contactadas por día para Creko y Suite Solutions.",
+      "fields": [
+        {
+          "key": "businessName",
+          "label": "Comercio / Marca",
+          "type": "text"
+        },
+        {
+          "key": "channel",
+          "label": "Canal (Maps, IG, Presencial)",
+          "type": "text"
+        },
+        {
+          "key": "status",
+          "label": "Estado (Respondido, Silencio, Interesado)",
+          "type": "status"
+        },
+        {
+          "key": "date",
+          "label": "Fecha",
+          "type": "date"
+        }
+      ],
+      "items": [
+        {
+          "businessName": "Café del Centro",
+          "channel": "Maps / WhatsApp",
+          "status": "Interesado",
+          "date": "2026-09-24"
+        },
+        {
+          "businessName": "Barbería 90s",
+          "channel": "Instagram DM",
+          "status": "Respondido",
+          "date": "2026-09-24"
+        }
+      ],
+      "createdAt": "2026-09-24T06:31:17.295Z"
+    }
+  ],
+  "dayClosings": [],
+  "timeBlocks": [
+    {
+      "id": "tb_creko_captacion",
+      "date": "2026-09-24",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "area": "creko",
+      "focus": "Captación",
+      "title": "CREKO — Captación",
+      "objective": "Preparar prospectos y detectar 15 nuevos locales comerciales en Google Maps.",
+      "suggestedTasks": [
+        "Buscar comercios en Logroño centro en Google Maps",
+        "Extraer números de WhatsApp e Instagram",
+        "Anotar tipo de cartelería actual para propuesta personalizada"
+      ],
+      "status": "completed",
+      "resultNotes": "18 nuevos prospectos detectados y agendados.",
+      "actualMinutes": 30,
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 1,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_creko_mensajes",
+      "date": "2026-09-24",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "area": "creko",
+      "focus": "Mensajes",
+      "title": "CREKO — Mensajes",
+      "objective": "Enviar mensajes directos y registrar respuestas de los comercios.",
+      "suggestedTasks": [
+        "Enviar mensajes personalizados a prospectos detectados",
+        "Seguimiento a Peluquería Velvet (PRE-2026-001)",
+        "Registrar respuestas en el embudo de captación"
+      ],
+      "status": "completed",
+      "resultNotes": "25 mensajes enviados. 3 respuestas positivas en curso.",
+      "actualMinutes": 60,
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 2,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_empleo_busqueda",
+      "date": "2026-09-24",
+      "startTime": "10:00",
+      "endTime": "10:40",
+      "area": "empleo",
+      "focus": "Búsqueda",
+      "title": "EMPLEO — Búsqueda & Trámites",
+      "objective": "Buscar ofertas, investigar oportunidades y seguimiento de expediente de regularización.",
+      "suggestedTasks": [
+        "Explorar InfoJobs y ofertas de rotulación en Logroño",
+        "Guardar ofertas interesantes",
+        "Seguimiento expediente laboral con abogada"
+      ],
+      "status": "completed",
+      "resultNotes": "Revisión completada.",
+      "actualMinutes": 40,
+      "color": "#38bdf8",
+      "colorPriority": "blue",
+      "isFixed": false,
+      "order": 3,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_descanso_cafe",
+      "date": "2026-09-24",
+      "startTime": "10:40",
+      "endTime": "11:00",
+      "area": "personal",
+      "focus": "Descanso",
+      "title": "Descanso & Café",
+      "objective": "Pausa de 20 minutos sin pantallas, hidratación y recarga de enfoque.",
+      "suggestedTasks": [
+        "Café/Agua",
+        "Desconectar ojos de pantalla",
+        "Estiramiento breve"
+      ],
+      "status": "completed",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 4,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_creko_produccion",
+      "date": "2026-09-24",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "area": "creko",
+      "focus": "Producción",
+      "title": "CREKO — Producción & DTF UV",
+      "objective": "Generar los artes vectoriales definidos y preparar presupuestos de taller.",
+      "suggestedTasks": [
+        "Exportar vectoriales con semitonos para DTF UV",
+        "Preparar propuesta de 25 remeras oversize Peluquería Velvet",
+        "Coordinar tiempos de producción con Thiago"
+      ],
+      "status": "completed",
+      "resultNotes": "Archivos preparados.",
+      "actualMinutes": 90,
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 5,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_almuerzo",
+      "date": "2026-09-24",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "area": "personal",
+      "focus": "Comida",
+      "title": "Comida & Descanso",
+      "objective": "Alimentación nutritiva y desconexión.",
+      "suggestedTasks": [
+        "Comida sana",
+        "Descanso"
+      ],
+      "status": "completed",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 6,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_burger_palusa_diseno",
+      "date": "2026-09-24",
+      "startTime": "15:30",
+      "endTime": "18:30",
+      "area": "producto",
+      "focus": "Diseños Gráficos",
+      "title": "BURGER PALUSA — Diseños Gráficos (300 $)",
+      "objective": "Crear paquete de diseños para Burger Palusa: packaging, remeras, pantalla y menú. Trabajo acordado por 300 USD (~275 €).",
+      "suggestedTasks": [
+        "Definir piezas requeridas para campaña gastronómica",
+        "Diseñar propuestas y mockups en Photoshop/Corel",
+        "Exportar archivos listos para imprenta y pantallas",
+        "Enviar artes finales y coordinar cobro de 300 $"
+      ],
+      "status": "in_progress",
+      "color": "#f97316",
+      "colorPriority": "orange",
+      "projectId": "proj_burger_palusa",
+      "isFixed": false,
+      "order": 7,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_personal_descanso_previo",
+      "date": "2026-09-24",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "area": "personal",
+      "focus": "Preparación",
+      "title": "PERSONAL — Descanso & Preparación Previa",
+      "objective": "Merienda ligera, descanso visual, ducha y preparación para el turno nocturno en DejaVu.",
+      "suggestedTasks": [
+        "Merienda e hidratación",
+        "Estiramiento",
+        "Alistarse para salir"
+      ],
+      "status": "pending",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 8,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_cierre_organizacion",
+      "date": "2026-09-24",
+      "startTime": "19:30",
+      "endTime": "20:00",
+      "area": "organizacion",
+      "focus": "Cierre de Caja",
+      "title": "ORGANIZACIÓN — Control de Caja & Finanzas",
+      "objective": "Control de saldo diario (145 € en mano), registro de movimientos y revisión de jornada antes de salir hacia DejaVu.",
+      "suggestedTasks": [
+        "Verificar saldo real en efectivo (145 €) antes de salir",
+        "Anotar estado de diseños Burger Palusa (300 $)",
+        "Dejar agenda de mañana alineada"
+      ],
+      "status": "pending",
+      "color": "#eab308",
+      "colorPriority": "yellow",
+      "isFixed": false,
+      "order": 9,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "id": "tb_changa_dejavu_noche",
+      "date": "2026-09-24",
+      "startTime": "20:00",
+      "endTime": "00:00",
+      "area": "changa",
+      "focus": "Turno Nocturno",
+      "title": "CHANGAS — Turno en DejaVu (20:00 a 00:00)",
+      "objective": "Turno de trabajo nocturno seguro en DejaVu de 20:00 a 12:00 de la noche (00:00). 4 horas de servicio.",
+      "suggestedTasks": [
+        "Ingreso puntual al turno a las 20:00",
+        "Servicio en barra / sala según requerimiento",
+        "Cierre de turno a las 00:00 y registro de liquidación"
+      ],
+      "status": "pending",
+      "color": "#ef4444",
+      "colorPriority": "red",
+      "isFixed": true,
+      "order": 10,
+      "createdAt": "2026-09-24T13:18:18.125Z",
+      "updatedAt": "2026-09-24T13:18:18.125Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "area": "creko",
+      "focus": "Captación",
+      "title": "CREKO — Captación",
+      "objective": "Preparar y detectar 15 nuevos locales comerciales en Google Maps.",
+      "suggestedTasks": [
+        "Buscar comercios en Logroño centro en Google Maps",
+        "Extraer números de WhatsApp e Instagram",
+        "Anotar tipo de cartelería actual para propuesta personalizada"
+      ],
+      "status": "pending",
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 1,
+      "id": "tb_1790335414621_0_gk6s",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "area": "creko",
+      "focus": "Mensajes",
+      "title": "CREKO — Mensajes",
+      "objective": "Enviar mensajes directos y registrar respuestas de los comercios.",
+      "suggestedTasks": [
+        "Enviar mensajes personalizados a prospectos detectados",
+        "Seguimiento a Peluquería Velvet (PRE-2026-001)",
+        "Registrar respuestas en el embudo de captación"
+      ],
+      "status": "pending",
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 2,
+      "id": "tb_1790335414621_1_pnqm",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "10:00",
+      "endTime": "10:40",
+      "area": "empleo",
+      "focus": "Búsqueda",
+      "title": "EMPLEO — Búsqueda (40 min)",
+      "objective": "Buscar ofertas, investigar oportunidades, guardar ofertas interesantes y enviar CV.",
+      "suggestedTasks": [
+        "Explorar InfoJobs y LinkedIn en Logroño y La Rioja",
+        "Guardar 3 ofertas de diseño, rotulación o impresión técnica",
+        "Enviar CV y postulación a 2 empresas seleccionadas"
+      ],
+      "status": "pending",
+      "color": "#38bdf8",
+      "colorPriority": "blue",
+      "isFixed": false,
+      "order": 3,
+      "id": "tb_1790335414621_2_xqsv",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "10:40",
+      "endTime": "11:00",
+      "area": "personal",
+      "focus": "Descanso",
+      "title": "Descanso & Café",
+      "objective": "Pausa de 20 minutos sin pantallas, hidratación y recarga de enfoque.",
+      "suggestedTasks": [
+        "Café/Agua",
+        "Desconectar ojos de pantalla",
+        "Estiramiento breve"
+      ],
+      "status": "pending",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 4,
+      "id": "tb_1790335414621_3_khb3",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "area": "creko",
+      "focus": "Seguimiento & Presupuestos",
+      "title": "CREKO — Seguimiento & Cierre",
+      "objective": "Seguimiento de presupuestos enviados (Velvet, Atlas) y cierre de ventas.",
+      "suggestedTasks": [
+        "Llamada de seguimiento",
+        "Resolución de dudas de presupuesto"
+      ],
+      "status": "pending",
+      "color": "#a855f7",
+      "colorPriority": "purple",
+      "projectId": "proj_creko",
+      "isFixed": false,
+      "order": 5,
+      "id": "tb_1790335414621_4_gt7f",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "area": "personal",
+      "focus": "Comida",
+      "title": "Comida & Descanso",
+      "objective": "Alimentación nutritiva y desconexión.",
+      "suggestedTasks": [
+        "Comida sana",
+        "Descanso"
+      ],
+      "status": "pending",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 7,
+      "id": "tb_1790335414621_5_xr8x",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "area": "producto",
+      "focus": "Prototipo",
+      "title": "PRODUCTO — Prototipo Cartel",
+      "objective": "Avanzar cartel: Estructura en L 3D + disco circular láser + estampa DTF UV para ferias.",
+      "suggestedTasks": [
+        "Ajustar pieza L en impresión 3D",
+        "Definir diámetro corte láser",
+        "Coste unitario vs precio de venta"
+      ],
+      "status": "pending",
+      "color": "#f97316",
+      "colorPriority": "orange",
+      "projectId": "proj_burger_palusa",
+      "isFixed": false,
+      "order": 8,
+      "id": "tb_1790335414621_6_xjsm",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "area": "personal",
+      "focus": "Gimnasio",
+      "title": "PERSONAL — Gimnasio & Salud",
+      "objective": "Entrenamiento físico, energía y bienestar mental.",
+      "suggestedTasks": [
+        "Sesión de pesas",
+        "Llegar a la meta de 8.000 pasos",
+        "Estiramientos"
+      ],
+      "status": "pending",
+      "color": "#10b981",
+      "colorPriority": "green",
+      "isFixed": false,
+      "order": 10,
+      "id": "tb_1790335414621_7_ngnm",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "19:40",
+      "endTime": "20:15",
+      "area": "organizacion",
+      "focus": "Cierre del Día",
+      "title": "ORGANIZACIÓN — Cierre & Finanzas",
+      "objective": "Cerrar el día, registrar resultados, verificar saldo y preparar mañana.",
+      "suggestedTasks": [
+        "Registrar resultados finales en los bloques de hoy",
+        "Chequear saldo real en efectivo (145 €) y movimientos",
+        "Dejar listos los bloques y prioridades del día siguiente"
+      ],
+      "status": "pending",
+      "color": "#eab308",
+      "colorPriority": "yellow",
+      "isFixed": false,
+      "order": 11,
+      "id": "tb_1790335414621_8_06rx",
+      "createdAt": "2026-09-25T11:23:34.621Z",
+      "updatedAt": "2026-09-25T11:23:34.621Z"
+    }
+  ],
+  "timeBlockHistory": [
+    {
+      "id": "tb_log_1790233430549",
+      "blockId": "tb_creko_captacion",
+      "date": "2026-09-24",
+      "title": "CREKO — Captación",
+      "area": "creko",
+      "plannedMinutes": 30,
+      "actualMinutes": 30,
+      "status": "completed",
+      "resultNotes": "Objetivo completado satisfactoriamente",
+      "completedAt": "2026-09-24T07:03:50.549Z"
+    },
+    {
+      "id": "tb_log_01",
+      "blockId": "tb_creko_captacion",
+      "date": "2026-09-24",
+      "title": "CREKO — Captación",
+      "area": "creko",
+      "plannedMinutes": 30,
+      "actualMinutes": 30,
+      "status": "completed",
+      "resultNotes": "18 nuevos prospectos",
+      "completedAt": "2026-09-24T04:03:36.875Z"
+    },
+    {
+      "id": "tb_log_02",
+      "blockId": "tb_creko_mensajes",
+      "date": "2026-09-24",
+      "title": "CREKO — Mensajes",
+      "area": "creko",
+      "plannedMinutes": 60,
+      "actualMinutes": 60,
+      "status": "completed",
+      "resultNotes": "25 mensajes enviados",
+      "completedAt": "2026-09-24T05:03:36.875Z"
+    }
+  ],
+  "healthSummaries": [
+    {
+      "id": "health_1790345340716_tmu1h",
+      "userId": "usr_main",
+      "date": "2026-09-25",
+      "steps": 6420,
+      "walkingRunningDistanceKm": 4.88,
+      "activeEnergyKcal": 289,
+      "workoutCount": 0,
+      "workoutMinutes": 0,
+      "workouts": [],
+      "syncedAt": "2026-09-25T14:09:00.716Z",
+      "source": "apple_health"
+    }
+  ],
+  "healthConnection": {
+    "state": "CONNECTED",
+    "availableDataTypes": [
+      "steps",
+      "distance",
+      "energy",
+      "workouts"
+    ],
+    "dailyStepTarget": 8000,
+    "weeklyWorkoutTarget": 4,
+    "lastSyncedAt": "2026-09-25T14:09:00.716Z",
+    "device": "iPhone / Apple Watch"
+  },
+  "spotify": {
+    "isConnected": false,
+    "isPlaying": false,
+    "playlistName": "Enfoque & Flow Operativo",
+    "currentTrack": {
+      "id": "track_default",
+      "name": "Flow de Alta Energía",
+      "artist": "Spotify Daily Mix",
+      "album": "Focus Sessions",
+      "albumArt": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=150&auto=format&fit=crop&q=80"
+    },
+    "device": "iPhone de Fran",
+    "profileName": "Fran Albornoz",
+    "lastUpdated": "2026-09-24T06:31:17.295Z"
+  },
+  "weatherLocation": "Logroño",
+  "currentActivity": {
+    "id": "act_creko_captacion",
+    "title": "Creko — Captación de clientes",
+    "category": "creko",
+    "categoryLabel": "CREKO",
+    "categoryColor": "#a855f7",
+    "icon": "🟣",
+    "startTime": "09:12",
+    "startTimestamp": 1790497352565,
+    "durationMinutes": 42,
+    "notes": "Prospección activa de comercios en Logroño y presupuestos",
+    "client": "Comercios Logroño",
+    "isActive": true
+  },
+  "timelineEntries": [
+    {
+      "id": "tl_1",
+      "time": "07:12",
+      "date": "2026-09-27",
+      "icon": "☀️",
+      "title": "Día iniciado",
+      "category": "vida",
+      "notes": "Rutina matutina en Logroño"
+    },
+    {
+      "id": "tl_2",
+      "time": "07:18",
+      "date": "2026-09-27",
+      "icon": "🎯",
+      "title": "Creko / Captación",
+      "category": "creko",
+      "duration": "45 min",
+      "durationMinutes": 45,
+      "notes": "Contactos y mensajes"
+    },
+    {
+      "id": "tl_3",
+      "time": "09:04",
+      "date": "2026-09-27",
+      "icon": "💬",
+      "title": "Creko / Mensajes y presupuestos",
+      "category": "creko",
+      "duration": "1h 17m",
+      "durationMinutes": 77
+    },
+    {
+      "id": "tl_4",
+      "time": "10:21",
+      "date": "2026-09-27",
+      "icon": "💡",
+      "title": "Burger Palusa / Diseño & Packaging",
+      "category": "burger_palusa",
+      "duration": "49 min",
+      "durationMinutes": 49,
+      "notes": "Packaging y cartelería digital ($300 pend.)"
+    },
+    {
+      "id": "tl_5",
+      "time": "11:10",
+      "date": "2026-09-27",
+      "icon": "💼",
+      "title": "Búsqueda laboral & Rotuprint",
+      "category": "trabajo",
+      "duration": "1h 20m",
+      "durationMinutes": 80
+    },
+    {
+      "id": "tl_6",
+      "time": "13:30",
+      "date": "2026-09-27",
+      "icon": "🍝",
+      "title": "Pausa & Almuerzo",
+      "category": "vida",
+      "duration": "1h 32m",
+      "durationMinutes": 92
+    },
+    {
+      "id": "tl_7",
+      "time": "15:02",
+      "date": "2026-09-27",
+      "icon": "🏭",
+      "title": "Creko / Producción y taller",
+      "category": "creko",
+      "duration": "2h 38m",
+      "durationMinutes": 158
+    },
+    {
+      "id": "tl_8",
+      "time": "17:40",
+      "date": "2026-09-27",
+      "icon": "🏃",
+      "title": "Correr / Rendimiento",
+      "category": "cuerpo",
+      "duration": "45 min",
+      "durationMinutes": 45,
+      "notes": "5.4 km por ribera del Ebro"
+    },
+    {
+      "id": "tl_9",
+      "time": "18:25",
+      "date": "2026-09-27",
+      "icon": "✓",
+      "title": "Entrenamiento completado",
+      "category": "cuerpo"
+    },
+    {
+      "id": "tl_10",
+      "time": "20:10",
+      "date": "2026-09-27",
+      "icon": "💰",
+      "title": "Changa registrada (Turno DejaVu)",
+      "category": "trabajo",
+      "notes": "Servicio en barra 20:00 - 00:00"
+    }
+  ],
+  "rpg": {
+    "totalXp": 2780,
+    "level": 3,
+    "levelName": "Control",
+    "currentLevelXp": 780,
+    "nextLevelXp": 1300,
+    "progressPercent": 60,
+    "lives": 5,
+    "maxLives": 5,
+    "streaks": [
+      {
+        "id": "strk_gym",
+        "name": "Gimnasio",
+        "icon": "🏋️",
+        "currentStreak": 4,
+        "bestStreak": 7,
+        "lastCompletedDate": "2026-09-27"
+      },
+      {
+        "id": "strk_read",
+        "name": "Lectura",
+        "icon": "📖",
+        "currentStreak": 2,
+        "bestStreak": 5,
+        "lastCompletedDate": "2026-09-27"
+      },
+      {
+        "id": "strk_work",
+        "name": "Buscar trabajo",
+        "icon": "💼",
+        "currentStreak": 3,
+        "bestStreak": 4,
+        "lastCompletedDate": "2026-09-27"
+      },
+      {
+        "id": "strk_nosmoke",
+        "name": "Sin fumar",
+        "icon": "🚭",
+        "currentStreak": 1,
+        "bestStreak": 3,
+        "lastCompletedDate": "2026-09-27"
+      }
+    ],
+    "dailyMissions": [
+      {
+        "id": "m_gym",
+        "title": "Gimnasio o entrenamiento",
+        "category": "diaria",
+        "xp": 100,
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "m_read",
+        "title": "Leer 20 minutos",
+        "category": "diaria",
+        "xp": 100,
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "m_job",
+        "title": "Buscar trabajo 40 minutos",
+        "category": "diaria",
+        "xp": 150,
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "m_creko",
+        "title": "Trabajar en Creko (Captación / Producción)",
+        "category": "diaria",
+        "xp": 120,
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "m_fin",
+        "title": "Organizar finanzas y gastos del día",
+        "category": "diaria",
+        "xp": 50,
+        "completed": false,
+        "frequency": "daily"
+      },
+      {
+        "id": "m_med",
+        "title": "Meditar o desconexión mental",
+        "category": "diaria",
+        "xp": 75,
+        "completed": false,
+        "frequency": "daily"
+      }
+    ],
+    "weeklyMissions": [
+      {
+        "id": "wm_run",
+        "title": "Correr 2 a 3 veces esta semana",
+        "category": "semanal",
+        "xp": 300,
+        "completed": false,
+        "frequency": "weekly"
+      },
+      {
+        "id": "wm_leads",
+        "title": "Conseguir contactos o prospectos laborales/comerciales",
+        "category": "semanal",
+        "xp": 250,
+        "completed": false,
+        "frequency": "weekly"
+      },
+      {
+        "id": "wm_clients",
+        "title": "Cerrar clientes o changas de valor",
+        "category": "semanal",
+        "xp": 350,
+        "completed": false,
+        "frequency": "weekly"
+      },
+      {
+        "id": "wm_income",
+        "title": "Generar ingresos directos de la semana",
+        "category": "semanal",
+        "xp": 200,
+        "completed": false,
+        "frequency": "weekly"
+      },
+      {
+        "id": "wm_budget",
+        "title": "Mantener gastos controlados y sin fugas",
+        "category": "semanal",
+        "xp": 150,
+        "completed": false,
+        "frequency": "weekly"
+      }
+    ],
+    "recoveryMissions": [
+      {
+        "id": "rm_walk",
+        "title": "Caminar 30 minutos al aire libre",
+        "category": "recuperacion",
+        "xp": 50,
+        "completed": false,
+        "frequency": "recovery"
+      },
+      {
+        "id": "rm_train",
+        "title": "Entrenar 40 minutos de manera saludable",
+        "category": "recuperacion",
+        "xp": 75,
+        "completed": false,
+        "frequency": "recovery"
+      },
+      {
+        "id": "rm_room",
+        "title": "Ordenar habitación y espacio personal",
+        "category": "recuperacion",
+        "xp": 50,
+        "completed": false,
+        "frequency": "recovery"
+      },
+      {
+        "id": "rm_read",
+        "title": "Leer 20 minutos con foco",
+        "category": "recuperacion",
+        "xp": 50,
+        "completed": false,
+        "frequency": "recovery"
+      },
+      {
+        "id": "rm_task",
+        "title": "Completar 1 tarea pendiente prioritaria",
+        "category": "recuperacion",
+        "xp": 50,
+        "completed": false,
+        "frequency": "recovery"
+      },
+      {
+        "id": "rm_job",
+        "title": "Buscar trabajo o enviar solicitudes 40 minutos",
+        "category": "recuperacion",
+        "xp": 100,
+        "completed": false,
+        "frequency": "recovery"
+      }
+    ],
+    "smokeLog": [],
+    "history": [
+      {
+        "id": "h_init_1",
+        "action": "Gimnasio",
+        "xpChange": 100,
+        "timestamp": 1790490000000,
+        "reason": "Entrenamiento completado",
+        "createdAt": "2026-09-27T18:25:00.000Z"
+      },
+      {
+        "id": "h_init_2",
+        "action": "Buscar trabajo",
+        "xpChange": 150,
+        "timestamp": 1790480000000,
+        "reason": "Búsqueda y gestión de oportunidades",
+        "createdAt": "2026-09-27T12:00:00.000Z"
+      }
+    ],
+    "config": {
+      "xpValues": {
+        "gym": 100,
+        "run": 150,
+        "football": 100,
+        "read": 100,
+        "meditate": 75,
+        "jobSearch": 150,
+        "getClient": 250,
+        "organizeTasks": 50,
+        "smokePenalty": -50,
+        "missImportantMission": -25,
+        "breakStreak": -50
+      },
+      "streakBonus": {
+        "threeDays": 50,
+        "sevenDays": 150,
+        "fourteenDays": 300,
+        "thirtyDays": 600
+      }
+    },
+    "lastUpdated": "2026-09-28T04:00:00.000Z"
+  }
+}
